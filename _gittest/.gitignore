@@ -1,0 +1,57 @@
+# ============================================================
+# Visual Studio / C++ build artifacts
+# ============================================================
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+
+# Compiler / linker output
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.map
+*.pch
+*.ipch
+*.tlog
+*.lastbuildstate
+*.log
+
+# IntelliSense / browse databases
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.suo
+ipch/
+
+# Per-user project settings
+*.vcxproj.user
+*.user
+
+# ============================================================
+# HW3 - large third-party 3D scene assets (Bistro)
+# 100MB+ files exceed GitHub limits; not original work.
+# ============================================================
+HW3/BistroExterior_Texture_PS_GLSL/Scene/
+HW3/BistroExterior_Texture_PS_GLSL/Data/
+
+# ============================================================
+# OS / editor cruft
+# ============================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*~
+*.swp
