@@ -17,9 +17,9 @@
 4.  ‘l’키로 눈 좌표계 광원을 선택한 상태에서 ‘e’키를 누르면 스폿 방향이 -z방향인 스폿 광원을 토글할 수 있도록
     구현했습니다.
 
-![](report_assets/media/image3.png)
-
-![](report_assets/media/image4.png)
+> ![](report_assets/media/image3.png)
+>
+> ![](report_assets/media/image4.png)
 
 5.  ‘l’키로 세상 좌표계 광원을 선택한 상태에서 ‘d’키를 누르면 광원이 y축을 기준으로 원운동하도록 구현했습니다.
 
@@ -36,7 +36,7 @@
     사용하여 쉐이더의 u\_flag\_texture\_mapping값에 따라 호랑이를 포함한 물체들에 텍스처를 입히고
     벗길 수 있도록 구현했습니다.
 
-![](report_assets/media/image7.png)
+> ![](report_assets/media/image7.png)
 
 9.  ‘g’키를 누르면 Poly Haven (polyhaven.com)에서 가져온 바닥과 벽 텍스처를 입히고 벗길 수 있도록
     구현했습니다.
