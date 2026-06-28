@@ -1,11 +1,11 @@
 # HW5: OpenGL 기반 쉐이딩, 텍스처 매핑 및 쉐이더 작성 연습
 
-20210041 박민성
 
 1.  Shaders/Simple\_Phong.frag에 attenuation factor를 추가해 ‘l’키로 모델링 좌표계
     광원을 선택한 상태에서 ‘b’키를 누르면 빛의 감쇄 효과를 켜고 끌 수 있도록 설정했습니다.
 
 > ![](report_assets/media/image1.png)
+>
 > ![](report_assets/media/image2.png)
 
 2.  왼쪽 마우스를 누른 상태에서 움직이면 VRP를 카메라의 uv평면 방향으로 평행이동시켜, PRP는 고정한 채로 PRP와
@@ -18,11 +18,13 @@
     구현했습니다.
 
 ![](report_assets/media/image3.png)
+
 ![](report_assets/media/image4.png)
 
 5.  ‘l’키로 세상 좌표계 광원을 선택한 상태에서 ‘d’키를 누르면 광원이 y축을 기준으로 원운동하도록 구현했습니다.
 
 > ![](report_assets/media/image5.png)
+>
 > ![](report_assets/media/image6.png)
 
 6.  고양이와 개미를 선택하여, 고양이 세 마리는 바닥에, 개미 두 마리는 왼쪽 벽, 한 마리는 오른쪽 벽에 붙어있도록
@@ -89,5 +91,4 @@
 > ‘h’키로 호랑이의 블렌딩을 켠 상태에서는 호랑이의 u\_alpha를 불투명도로 낮추고, 불투명도 비율만큼 픽셀을 dither
 > 방식으로 discard해서 호랑이의 불투명도에 따라 반사와 그림자가 조절되도록 구현했습니다.
 > 
-> ![](report_assets/media/image12.png)
 > ![](report_assets/media/image13.png)

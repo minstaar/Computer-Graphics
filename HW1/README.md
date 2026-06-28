@@ -1,6 +1,5 @@
 # HW1: GLUT 툴킷을 사용한 Polygon Editor 개발
 
-20210041 박민성
 
 1)  프로그램 실행 시 호출되는 initialize\_polygon\_editor() 함수에서 상태 구조체의
     st.current\_mode를 IDLE로 초기화합니다.
